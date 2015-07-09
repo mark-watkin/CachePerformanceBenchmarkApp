@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/noCacheImg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noCacheImg"/>
+
+    <Button
+        android:id="@+id/diskCacheImg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diskCacheImg"/>
+
+    <Button
+        android:id="@+id/memCacheImg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/memCacheImg"/>
+
+    <Button
+        android:id="@+id/noCacheHttp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/noCacheHttp"/>
+
+    <Button
+        android:id="@+id/cachehttp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cacheHttp"/>
+
+
+</LinearLayout>

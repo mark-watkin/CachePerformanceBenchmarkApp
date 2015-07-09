@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CachePerformaceBenchmarkApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="noCacheHttp">No cache for text</string>
+    <string name="cacheHttp">Http response cache</string>
+    <string name="memCacheImg">Memory Cache For Image</string>
+    <string name="diskCacheImg">Disk Cache For Image</string>
+    <string name="noCacheImg">No Cache For Image</string>
+</resources>
